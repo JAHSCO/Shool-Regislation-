@@ -1,0 +1,84 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY BACKGROUND */
+body {
+    background: #f5f7fa;
+}
+
+/* NAVBAR */
+.navbar {
+    background: white;
+    color: #333;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* MAIN SECTION */
+.main {
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+/* CARD HOVER */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* TEXT SPACING */
+.card h1 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* BUTTON */
+.start-btn {
+    padding: 12px 30px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.start-btn:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+}
